@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+<!--- # "Can be a image or a gift from the project pages" -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bdcffbf0-ac0f-447c-a36c-c2a52f56c4fc" alt="Frontend cardápio">
+</p>
 
-Currently, two official plugins are available:
+# Cardápio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Um projeto simples de cardápio usando react, com a possibilidade de adicionar novos itens
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<!--- # "Verify icons availability here https://github.com/tandpfun/skill-icons" -->
 
-- Configure the top-level `parserOptions` property like this:
+[![My Skills](https://skillicons.dev/icons?i=ts,postgres,vite,react,java)](https://skillicons.dev)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Getting Started/Contribute
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. **Clone project**: `git clone https://github.com/ryangustav/frontend_cardapio`
+2. **Install dependencies**: `npm install`
+3. **Clone backend project**: `git glone https://github.com/ryangustav/backend_cardapio/`
+4. **Install backend dependencies**: `mvn dependency:resolve`
+5. **Start backend**: `mvn spring-boot:run`
+6. **Start Developing**: `npm run dev`
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## License
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This software is available under the following licenses:
+
+- [MIT](https://rem.mit-license.org)
